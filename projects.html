@@ -42,26 +42,37 @@
 					<section id="wrapper">
 							<section id="four" class="wrapper alt style1">
 									<div class="inner">
-										<h2 class="major">Vitae phasellus</h2>
-										<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+										<h2 class="major">Projects</h2>
+										<p>Short descriptions of a highlight of projects I've worked on in my professional and school experience. I'd love to talk about these projects and share code related to them as samples of what I've written.</p>
 										<section class="features">
 											<article>
-												<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-												<h3 class="major">Sed feugiat lorem</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-												<a href="#" class="special">Learn more</a>
+												<a href="#" class="image"><img src="images/priority_pintos.jpeg" alt="" /></a>
+												<h3 class="major">PintOS</h3>
+												<p>Language: C</p>
+												<p>Description: As part of the Operating Systems course, I worked in a group with two other individuals to implement functionality for the learning operating system PintOS. In the course of the semester, we designed and implemented code to enable a variety of functionality for the OS. This included implementing syscalls (halt, exec, wait, create, remove, etc.),
+													creating a priority scheduler and allowing threads to donate priority, implementing a buffer cache for reading and writing, and creating a file system based on Unix FFS to enable extensible files and subdirectories.
+												<br /></p>
+												<p>Learnings: This project was the largest and most complex system I've worked on. It taught me valuable lessons in system design as our code had to work within the existing (very large) code base while designing data structures and algorithms to run correctly and efficiently. As we were implementing functionality for an OS, synchronization 
+													also posed a big challenge stressing the use of locking critical sections of code (such as switching threads or writing to a file) while ensuring our system could still run multiple processes in parallel (multiple threads could read a file). 
+												</p>
 											</article>
 											<article>
-												<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-												<h3 class="major">Nisl placerat</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-												<a href="#" class="special">Learn more</a>
+												<a href="#" class="image"><img src="images/byow.png" alt="" /></a>
+												<h3 class="major">Build Your Own World</h3>
+												<p>Language: Java</p>
+												<p>Description: As part of my Data Structures course, I was tasked to work with one other individual to implement the basis for a 2D game by creating a system that could procedurally generate worlds from a given seed, placing an avatar in the world.
+													Our system also had to have save/load functionality so any moves made by the avatar to change the game state could be saved and subsequently loaded between program invocations.
+												<br /></p>
+												<p>Learnings: This was my first experience with systems design as I had to consider carefully what classes I would need to support what functionality and design algorithms to implement that functionality. I gained experience with Java GUI and file I/O.</p>
 											</article>
 											<article>
-												<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-												<h3 class="major">Ante fermentum</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-												<a href="#" class="special">Learn more</a>
+												<a href="#" class="image"><img src="images/pacman_search.png" alt="" /></a>
+												<h3 class="major">Pacman Search</h3>
+												<p>Language: Python</p>
+												<p>Description: As part of my AI course, I implemented a variety of algorithms to create a rudimentary Pacman AI that could solve mazes.
+													These algorithms included: depth and breadth first search, A* search, and implementing my own heuristics function to help Pacman get to all four corners efficiently as well as eat all food dots as efficiently as possible.
+												<br /></p>
+												<p>Learnings: Implementing given search algorithms was easy enough. The challenging part in this project was designing my own heuristic functions to solve two different problems for the Pacman agent to find the shortest path between all 4 corners of a given maze and eat all the food dots in a given maze as efficiently as possible (with efficiency being defined as maximing the score).</p>
 											</article>
 											<article>
 												<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
