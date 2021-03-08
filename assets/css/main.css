@@ -3465,7 +3465,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
+				/*background-color: #2e3141;*/
 				background-image: url("../../images/mountains.jpg");
 				background-size: auto,
  cover;
@@ -3577,7 +3577,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
+			/*background-color: #2e3141;*/
 			background-image: url("../../images/mountains.jpg");
 			background-size: auto,
  cover;
